@@ -1,0 +1,127 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+}
+
+.container-navbar {
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(36, 36, 113);
+    list-style-type: none;
+    padding : 5px;
+    margin: 5px;
+    color :rgb(255, 255, 255);
+    font-size: 2vh;
+}
+
+.li-navbar :hover {
+    background-color: gold;
+    border-radius: 1px;
+} 
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.li-navbar1 {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: white;
+    list-style-type: none;
+    padding : 5px;
+    margin: 5px;
+    color :rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.li-navbar1 :hover {
+    background-color: rgb(36, 36, 113);
+    border-radius: 1px;
+} 
+
+.a-navbar1 {
+    color: black;
+    text-decoration: none;
+}
+
+.container-content {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    height: 75vh;
+}
+
+.a-content {
+    color:black;
+    font-size: 5vh;
+    text-decoration: none;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-content1 {
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-content {
+    width: 20%;
+    height: 25%;
+}
+
+.img-content1 {
+    width: 20%;
+    height: 25%;
+}
+
+.container-footer {
+    height: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    font-size: 3vh;
+}
+
+.container-content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.container-footer1 {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer1 {
+    font-size: 13px;
+}
